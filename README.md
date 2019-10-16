@@ -5,13 +5,13 @@ React Native Module for alipay.com
 ## install
 
 ```
-yarn add react-native-alipays
+yarn add react-native-alipay-cy
 ```
 
 ## Android
 
 ```
-react-native link react-native-alipays
+react-native link react-native-alipay-cy
 ```
 
 * edit android/build.gradle
@@ -19,7 +19,7 @@ react-native link react-native-alipays
 ```
 repositories {
     flatDir {
-        dirs project(':react-native-alipays').file('libs')
+        dirs project(':react-native-alipay-cy').file('libs')
     }
 }
 ```
@@ -29,15 +29,15 @@ repositories {
 * android/settings.gradle
 
 ```
-include ':react-native-alipays'
-project(':react-native-alipays').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-alipays/android')
+include ':react-native-alipay-cy'
+project(':react-native-alipay-cy').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-alipay-cy/android')
 ```
 
 * android/app/build.gradle
 
 ```
 dependencies {
-    compile project(':react-native-alipays')
+    compile project(':react-native-alipay-cy')
 }
 ```
 
@@ -72,12 +72,12 @@ pod install
 ### With rnpm
 
 ```
-react-native link react-native-alipays
+react-native link react-native-alipay-cy
 ```
 
 ### Manually
 
-> Link `AlipayModule` library from your `node_modules/react-native-alipays/ios` folder like its [described here](http://facebook.github.io/react-native/docs/linking-libraries-ios.html). Don't forget to add it to "Build Phases" of project.
+> Link `AlipayModule` library from your `node_modules/react-native-alipay-cy/ios` folder like its [described here](http://facebook.github.io/react-native/docs/linking-libraries-ios.html). Don't forget to add it to "Build Phases" of project.
 
 ### Config
 
@@ -92,7 +92,7 @@ react-native link react-native-alipays
 ### General Usage
 
 ```javascript
-import Alipay from 'react-native-alipays';
+import Alipay from 'react-native-alipay-cy';
 
 ```
 

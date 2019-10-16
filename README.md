@@ -1,4 +1,4 @@
-# react-native-alipays
+# react-native-alipay-cy
 
 React Native Module for alipay.com
 

@@ -1,0 +1,16 @@
+{
+  "name": "react-native-alipay-cy",
+  "version": "1.0.1",
+  "description": "alipay module for react native",
+  "main": "index.js",
+  "homepage": "https://github.com/channg/react-native-alipay",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react-native",
+    "alipay"
+  ],
+  "author": "nevo",
+  "license": "MIT"
+}
